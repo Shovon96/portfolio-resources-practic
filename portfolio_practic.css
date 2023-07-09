@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.shovon{
+    font-size: 34px;
+    font-family: Open Sans;
+    font-size: 45px;
+    margin-right: 20%;
+}
+.shovon .color-o{
+    color: #FD6E0A;
+    font-size: 50px;
+    font-weight: 800;
+}
+.main-menu-ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.list-item{
+    color: black;
+    margin: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.hire-me{
+    padding: 10px 20px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.info-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.dev-img{
+    position: absolute;
+    height: 600px;
+    margin-left: 3.5%;
+}
+.self-info{
+    margin-left: 12%;
+}
+.hi{
+    font-size: 35px;
+    color: #474747;
+}
+.ahmed{
+    font-size: 55px;
+    margin: 10px 0;
+}
+.title{
+    color: #474747;
+    font-size: medium;
+}
+.down-cv{
+    text-decoration: none;
+    color: white;
+    background-color: #FD6E0A;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.contact{
+    text-decoration: none;
+    color: #FD6E0A;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: #FD6E0A solid 1px;
+    margin-left: 20px;
+}
+.fa-solid{
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+.my-img{
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-left: 60px;
+}
+.profile-pic{
+    height: 517px;
+    width: auto;
+    margin-left: 35%;
+}
