@@ -4,7 +4,7 @@
     font-family: Open Sans;
 }
 p{
-    color: #474747;
+    color: #807e7e;
 }
 .main-menu{
     display: flex;
@@ -137,4 +137,23 @@ p{
     font-size: 34px;
     margin: 10px;
     font-weight: 900;
+}
+.card-main{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.card{
+    height: auto;
+    width: 16%;
+    border: none;
+    padding: 25px;
+    background-color: rgb(240, 230, 211);
+    box-shadow: 3px 4px 8px 8px gray;
+    margin-bottom: 40px;
+}
+.card h3{
+    font-weight: bolder;
+    margin: 20px 0;
 }
